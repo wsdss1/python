@@ -1,0 +1,3314 @@
+[
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756a5" },
+    "acbSize": "L2",
+    "name": "\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442 55",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["1", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["1", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756a6" },
+    "acbSize": "L2",
+    "name": "62 UNO/Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["1", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["1", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756a7" },
+    "acbSize": "L2",
+    "name": "\u0411\u0440\u0430\u0432\u043e 60/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["1", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["1", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756a8" },
+    "acbSize": "L2",
+    "name": "60 DOCKER/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["1", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["1", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756a9" },
+    "acbSize": "L2",
+    "name": "\u0410\u041a\u041e\u041c 55/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756aa" },
+    "acbSize": "L2",
+    "name": "55 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ab" },
+    "acbSize": "L2",
+    "name": "55 FB/ Euro FB",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ac" },
+    "acbSize": "L2",
+    "name": "55 Feon Alt/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ad" },
+    "acbSize": "L2",
+    "name": "55 VIRBAC/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ae" },
+    "acbSize": "L2",
+    "name": "55 Vortex/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756af" },
+    "acbSize": "L2",
+    "name": "56 Westa Red",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["2", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["2", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b0" },
+    "acbSize": "L2",
+    "name": "AKOM-REACTOR 55 / \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["3", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["3", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b1" },
+    "acbSize": "L2",
+    "name": "55 \u0410\u041a\u041e\u041c \u0415\u0432\u0440\u043e LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["3", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["3", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b2" },
+    "acbSize": "L2",
+    "name": "55 \u0415\u0432\u0440\u043e \u0412\u0410\u0417",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["3", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["3", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b3" },
+    "acbSize": "L2",
+    "name": "BRAVO 55/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["4", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["4", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b4" },
+    "acbSize": "L2",
+    "name": "55 DOCKER/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["4", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["4", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b5" },
+    "acbSize": "L2",
+    "name": "55 UNO/Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["4", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["4", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b6" },
+    "acbSize": "L2",
+    "name": "60 UNO/Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["4", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["4", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b7" },
+    "acbSize": "L2",
+    "name": "\u0410\u0412\u0422\u041e\u0424\u0410\u041d 55/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["5", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["5", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b8" },
+    "acbSize": "L2",
+    "name": "55 Virbac Classic/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["5", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["5", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756b9" },
+    "acbSize": "L2",
+    "name": "\u0410\u041a\u041e\u041c 60/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ba" },
+    "acbSize": "L2",
+    "name": "60 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756bb" },
+    "acbSize": "L2",
+    "name": "\u0410\u041a\u041e\u041c 62/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756bc" },
+    "acbSize": "L2",
+    "name": "60FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756bd" },
+    "acbSize": "L2",
+    "name": "62 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756be" },
+    "acbSize": "L2",
+    "name": "62 FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756bf" },
+    "acbSize": "L2",
+    "name": "U-MAG Ultra 60",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c0" },
+    "acbSize": "L2",
+    "name": "U-MAG Ultra 62",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c1" },
+    "acbSize": "L2",
+    "name": "60 \u0410\u041a\u041e\u041c \u0415\u0432\u0440\u043e LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c2" },
+    "acbSize": "L2",
+    "name": "60 Feon Alt/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c3" },
+    "acbSize": "L2",
+    "name": "60 VIRBAC/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c4" },
+    "acbSize": "L2",
+    "name": "64 Feon Alt/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c5" },
+    "acbSize": "L2",
+    "name": "64 VIRBAC/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c6" },
+    "acbSize": "L2",
+    "name": "60 Vortex/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c7" },
+    "acbSize": "L2",
+    "name": "62 Vortex/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c8" },
+    "acbSize": "L2",
+    "name": "55VLR Euro FB LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756c9" },
+    "acbSize": "L2",
+    "name": "60 Westa Red",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ca" },
+    "acbSize": "L2",
+    "name": "Forse 55",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756cb" },
+    "acbSize": "L2",
+    "name": "62 DOCKER/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756cc" },
+    "acbSize": "L3",
+    "name": "\u0410\u0412\u0422\u041e\u0424\u0410\u041d 70/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["6", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["6", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756cd" },
+    "acbSize": "L2",
+    "name": "62 Euro DOMINATOR LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["7", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["7", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ce" },
+    "acbSize": "L2",
+    "name": "62VLR Euro FB LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["7", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["7", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756cf" },
+    "acbSize": "L2",
+    "name": "60VL Forse LB2/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["7", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["7", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d0" },
+    "acbSize": "L2",
+    "name": "60 COUGAR LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["7", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["7", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d1" },
+    "acbSize": "L2",
+    "name": "63 Westa Red LB2",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["7", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["7", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d2" },
+    "acbSize": "L2",
+    "name": "AKOM-REACTOR 62/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["8", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["8", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d3" },
+    "acbSize": "L2",
+    "name": "FORSE 65/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["8", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["8", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d4" },
+    "acbSize": "L2",
+    "name": "62 \u0412\u0410\u0417/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["9", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["9", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d5" },
+    "acbSize": "L2",
+    "name": "64 \u0412\u0410\u0417/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["10", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["10", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d6" },
+    "acbSize": "L2",
+    "name": "\u0410\u041a\u041e\u041c 66/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d7" },
+    "acbSize": "L2",
+    "name": "66 FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d8" },
+    "acbSize": "L2",
+    "name": "66 DOMINATOR/ Euro ",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756d9" },
+    "acbSize": "L2",
+    "name": "\u0410\u041a\u041e\u041c 65/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756da" },
+    "acbSize": "L2",
+    "name": "65 FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756db" },
+    "acbSize": "L2",
+    "name": "65 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756dc" },
+    "acbSize": "L2",
+    "name": "66 UNO/Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756dd" },
+    "acbSize": "L3",
+    "name": "\u0420\u0435\u0430\u043a\u0442\u043e\u0440 75/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["12", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["12", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756de" },
+    "acbSize": "L2",
+    "name": "65 Westa Red",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["11", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["11", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756df" },
+    "acbSize": "L3",
+    "name": "75 \u0415\u0432\u0440\u043e \u0413\u0410\u0417",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["12", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["12", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e0" },
+    "acbSize": "L3",
+    "name": "\u0410\u0412\u0422\u041e\u0424\u0410\u041d 85/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["12", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["12", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e1" },
+    "acbSize": "L3",
+    "name": "\u0411\u0440\u0430\u0432\u043e 74/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["13", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["13", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e2" },
+    "acbSize": "L3",
+    "name": "77 UNO/Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["13", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["13", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e3" },
+    "acbSize": "L3",
+    "name": "FORSE 70",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["13", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["13", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e4" },
+    "acbSize": "L2",
+    "name": "66 \u0421ougar Power/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["13", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["13", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e5" },
+    "acbSize": "L2",
+    "name": "66 \u0415\u0432\u0440\u043e \u0413\u0410\u0417",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["13", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["13", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e6" },
+    "acbSize": "L3",
+    "name": "\u0410\u041a\u041e\u041c 75/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e7" },
+    "acbSize": "L3",
+    "name": "75 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e8" },
+    "acbSize": "L3",
+    "name": "75 FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756e9" },
+    "acbSize": "L3",
+    "name": "U-MAG Ultra 74",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ea" },
+    "acbSize": "L3",
+    "name": "74 \u0410\u041a\u041e\u041c \u0415\u0432\u0440\u043e LB3",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756eb" },
+    "acbSize": "L3",
+    "name": "74 Euro DOMINATOR LB3",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ec" },
+    "acbSize": "L3",
+    "name": "74 Euro FB LB3",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ed" },
+    "acbSize": "L3",
+    "name": "75 Vortex/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ee" },
+    "acbSize": "L2",
+    "name": "77 DOCKER/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ef" },
+    "acbSize": "L3",
+    "name": "77 VIRBAC/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f0" },
+    "acbSize": "L3",
+    "name": "75 Feon Alt/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f1" },
+    "acbSize": "L3",
+    "name": "77 Fire Ball/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f2" },
+    "acbSize": "L3",
+    "name": "75 Feon Classic/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f3" },
+    "acbSize": "L3",
+    "name": "75 Virbac Classic/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f4" },
+    "acbSize": "L3",
+    "name": "74VL Forse LB3/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f5" },
+    "acbSize": "L3",
+    "name": "70VL Forse Euro LB3",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f6" },
+    "acbSize": "L3",
+    "name": "74VL Forse/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f7" },
+    "acbSize": "L3",
+    "name": "74 Westa Red",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f8" },
+    "acbSize": "L3",
+    "name": "74 Westa Red LB3",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756f9" },
+    "acbSize": "L5",
+    "name": "\u0411\u0440\u0430\u0432\u043e 90/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756fa" },
+    "acbSize": "L3",
+    "name": "75 COUGAR LB3 Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["14", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["14", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756fb" },
+    "acbSize": "L5",
+    "name": "90 Fire Ball/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756fc" },
+    "acbSize": "L5",
+    "name": "95 Feon Classic/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756fd" },
+    "acbSize": "L5",
+    "name": "90 \u041a\u0410\u0422\u041e\u0414/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756fe" },
+    "acbSize": "L2",
+    "name": "90 UNO/Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c756ff" },
+    "acbSize": "L5",
+    "name": "95 Virbac Classic/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75700" },
+    "acbSize": "L5",
+    "name": "100V FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75701" },
+    "acbSize": "L5",
+    "name": "100 DOCKER/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["15", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["15", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75702" },
+    "acbSize": "L5",
+    "name": "91 FB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75703" },
+    "acbSize": "L5",
+    "name": "90  \u0410\u041a\u041e\u041c \u0415\u0432\u0440\u043e LB5",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75704" },
+    "acbSize": "L5",
+    "name": "95 Feon Alt/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75705" },
+    "acbSize": "L5",
+    "name": "\u0410\u041a\u041e\u041c 90/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75706" },
+    "acbSize": "L5",
+    "name": "95 VIRBAC/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75707" },
+    "acbSize": "L5",
+    "name": "91 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75708" },
+    "acbSize": "L3",
+    "name": "100 DOMINATOR/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75709" },
+    "acbSize": "L5",
+    "name": "91 Vortex/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7570a" },
+    "acbSize": "L5",
+    "name": "100 \u041a\u0410\u0422\u041e\u0414/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7570b" },
+    "acbSize": "L5",
+    "name": "100VL Forse/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7570c" },
+    "acbSize": "L5",
+    "name": "92VL Forse/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["16", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["16", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7570d" },
+    "acbSize": "L5",
+    "name": "REACTOR 100/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7570e" },
+    "acbSize": "L5",
+    "name": "100 Vortex/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7570f" },
+    "acbSize": "L5",
+    "name": "\u0410\u041a\u041e\u041c 100/ \u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75710" },
+    "acbSize": "L5",
+    "name": "105 Feon Alt/  Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75711" },
+    "acbSize": "L5",
+    "name": "105 VIRBAC/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75712" },
+    "acbSize": "L5",
+    "name": "110 \u0421ougar Power/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75713" },
+    "acbSize": "L5",
+    "name": "100 Westa Red /\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75714" },
+    "acbSize": "L5",
+    "name": "100 \u0415\u0432\u0440\u043e \u0413\u0410\u0417",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["17", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["17", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75715" },
+    "acbSize": "L2",
+    "name": "60 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["18", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["18", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75716" },
+    "acbSize": "L2",
+    "name": "60 ULTIMATUM/ EURO",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["18", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["18", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75717" },
+    "acbSize": "L2",
+    "name": "62 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["18", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["18", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75718" },
+    "acbSize": "L2",
+    "name": "65 Westa Red EFB /Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["18", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["18", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75719" },
+    "acbSize": "L2",
+    "name": "55 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["19", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["19", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7571a" },
+    "acbSize": "L2",
+    "name": "55 Westa Red EFB /Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["19", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["19", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7571b" },
+    "acbSize": "L2",
+    "name": "60 Westa Red EFB Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["19", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["19", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7571c" },
+    "acbSize": "L2",
+    "name": "65 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["20", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["20", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7571d" },
+    "acbSize": "L3",
+    "name": "70 ULTIMATUM",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["21", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["21", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7571e" },
+    "acbSize": "L3",
+    "name": "70 ULTIMATUM EURO",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["21", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["21", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7571f" },
+    "acbSize": "L3",
+    "name": "75 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["22", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["22", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75720" },
+    "acbSize": "L3",
+    "name": "75 Westa Red EFB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["22", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["22", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75721" },
+    "acbSize": "L5",
+    "name": "95 ULTIMATUM/  EURO",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["23", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["23", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75722" },
+    "acbSize": "L5",
+    "name": "90 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["23", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["23", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75723" },
+    "acbSize": "L5",
+    "name": "100 Westa Red EFB/ Euro",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["23", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["23", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75724" },
+    "acbSize": "L2",
+    "name": "6\u0421\u0422-52 Ford",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["25", "35"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["25", "35"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75725" },
+    "acbSize": "L5",
+    "name": "100 \u0410\u041a\u041e\u041c EFB/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["24", "34"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["24", "34"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75726" },
+    "acbSize": "L2",
+    "name": "6\u0421\u0422-60 Ford",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["26", "36"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["26", "36"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75727" },
+    "acbSize": "L2",
+    "name": "6\u0421\u0422-60VL Renault",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["27", "37"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["27", "37"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75728" },
+    "acbSize": "L3",
+    "name": "6\u0421\u0422-70VL Renault",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["28", "38"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["28", "38"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c75729" },
+    "acbSize": "L2",
+    "name": "6\u0421\u0422-55VL LB2/\u0415\u0432\u0440\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["29", "39"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["29", "39"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7572a" },
+    "acbSize": "L5",
+    "name": "6\u0421\u0422- 140/\u0415 \u0411\u0440\u0430\u0432\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["30", "40"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["30", "40"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7572b" },
+    "acbSize": "L5",
+    "name": "6\u0421\u0422- 190/\u0415 \u0411\u0440\u0430\u0432\u043e",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["31", "41"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["31", "41"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7572c" },
+    "acbSize": "L5",
+    "name": "6\u0421\u0422- 140/\u0415 \u0410\u041a\u041e\u041c",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["32", "42"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["32", "42"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7572d" },
+    "acbSize": "L5",
+    "name": "6\u0421\u0422- 190/\u0415 \u0410\u041a\u041e\u041c(2)",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["33", "43"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["33", "43"]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "5c46e50c06ef911750c7572e" },
+    "acbSize": "L5",
+    "name": "\u0413\u0410\u0417 195",
+    "typeGroup": null,
+    "chargeHalls": [
+      {
+        "hallId": "_hall1",
+        "maxBlockCapacity": 18,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 180,
+        "minTableCapacity": 18,
+        "programId": ["33", "43"]
+      },
+      {
+        "hallId": "_hall2",
+        "maxBlockCapacity": 22,
+        "minBlockCapacity": 0,
+        "maxTableCapacity": 176,
+        "minTableCapacity": 22,
+        "programId": ["33", "43"]
+      }
+    ]
+  }
+]
