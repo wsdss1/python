@@ -1,4 +1,9 @@
 #!/usr/bin/python
+
+'''
+check response from remote host
+'''
+
 import os, datetime, sys, time, logging
 
 def check_ping():
