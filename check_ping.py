@@ -58,22 +58,23 @@ if __name__ == '__main__':
     pingstatus = check_ping()
     if pingstatus == 'network down':
         # 1 step
-        os.system(f'service strongswan restart')
+        os.system(f'sudo service strongswan restart')
+        time.sleep(3)
         log('WARNING', 'service strongswan restart')
-        time.sleep(2)
         # 2 step
-        os.system(f'ipsec down akomovpn')
+        os.system(f'sudo ipsec down akomovpn')
+        log('WARNING', 'ipsec down akomovpn')
+        time.sleep(3)
+        os.system(f'sudo ipsec up akomovpn')
         log('WARNING', 'ipsec up akomovpn')
-        os.system(f'ipsec up akomovpn')
-        log('WARNING', 'ipsec up akomovpn')
-        time.sleep(2)
+        time.sleep(3)
         # 3 step
-        os.system(f'service xl2tpd restart')
+        os.system(f'sudo service xl2tpd restart')
         log('WARNING', 'service xl2tpd restart')
-        time.sleep(2)
+        time.sleep(3)
         # 4 step
         pppID = get_pppid()
-        os.system(f'route add -net 192.168.0.0/24 dev {pppID}')
+        os.system(f'sudo route add -net 192.168.0.0/24 dev {pppID}')
         log('WARNING', f'route add -net 192.168.0.0/24 dev {pppID}')
         sys.exit()
     else:
