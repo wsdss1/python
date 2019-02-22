@@ -1,50 +1,80 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 '''
 check response from remote host
+check pppID to create route
 '''
 
-import os, datetime, sys, time, logging
+import os, sys, time, logging
+
+def log(severiry, message):
+    # создаём logger
+    logger = logging.getLogger('check response')
+    logger.setLevel(logging.DEBUG)
+    # создаём консольный и файловый handler-ы и задаём уровень
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
+    fh = logging.FileHandler(f'./log_{time.strftime("%Y%m%d")}.log')
+    #fh = logging.FileHandler(f'/home/adminzabbix/check_response/log_{time.strftime("%Y%m%d")}.log')
+    fh.setLevel(logging.DEBUG)
+    # создаём formatter для handler-ов
+    formatter = logging.Formatter('%(asctime)s [%(process)d] %(levelname)s [%(pathname)s] %(message)s')
+    # добавляем formatter в ch и fh
+    ch.setFormatter(formatter)
+    fh.setFormatter(formatter)
+    # добавляем ch к logger
+    logger.addHandler(ch)
+    logger.addHandler(fh)
+    # код "приложения"
+    if severiry == 'INFO':
+        logger.info(message)
+    elif severiry == 'ERROR':
+        logger.error(message)
+    elif severiry == 'WARNING':
+        logger.warning(message)
 
 def check_ping():
     response = os.system(f'ping -c 1 {HOSTNAME}')
     if response == 0:
         pingstatus = 'network active'
-        log('INFO', HOSTNAME, pingstatus)
+        log('INFO', f'{pingstatus} [{HOSTNAME}]')
     else:
-        pingstatus = 'network error'
-        log('ERROR', HOSTNAME, pingstatus)
+        pingstatus = 'network down'
+        log('ERROR',f'{pingstatus} [{HOSTNAME}]')
     return pingstatus
 
-def log(severiry, host, message):
-    # создаём logger
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)
-    # создаём консольный handler и задаём уровень
-    # ch = logging.StreamHandler()
-    ch = logging.FileHandler(f'./log_{time.strftime("%Y%m%d")}.log')
-    ch.setLevel(logging.DEBUG)
-    # создаём formatter
-    formatter = logging.Formatter('%(asctime)s %(name)s %(levelname)s %(message)s')
-    #formatter = logging.Formatter(f'{asctime} {name} {levelname} {hostname} {message}')
-    # добавляем formatter в ch
-    ch.setFormatter(formatter)
-    # добавляем ch к logger
-    logger.addHandler(ch)
-    # код "приложения"
-    if severiry == 'INFO':
-        logger.info(message)
-    if severiry == 'ERROR':
-        logger.error(message)
+def get_pppid():
+    network_interfaces = os.listdir('/sys/class/net/')
+    for interface in network_interfaces:
+        if 'ppp' in interface:
+            log('INFO', f'network interfaces {interface}')
+            return interface
+        else:
+            log('ERROR', 'not pppID in network interfaces')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     HOSTNAME = sys.argv[1]
     pingstatus = check_ping()
-    print(pingstatus)
-    if pingstatus == 'network error':
-        os.system(f'ipsec stop')
-        log("INFO", HOSTNAME, 'ipsec stop')
-        time.sleep(3)
-        os.system(f'ipsec start')
-        log("INFO", HOSTNAME, 'ipsec start')
-        time.sleep(3)
+    if pingstatus == 'network down':
+        # 1 step
+        os.system(f'service strongswan restart')
+        log('WARNING', 'service strongswan restart')
+        time.sleep(2)
+        # 2 step
+        os.system(f'ipsec down akomovpn')
+        log('WARNING', 'ipsec up akomovpn')
+        os.system(f'ipsec up akomovpn')
+        log('WARNING', 'ipsec up akomovpn')
+        time.sleep(2)
+        # 3 step
+        os.system(f'service xl2tpd restart')
+        log('WARNING', 'service xl2tpd restart')
+        time.sleep(2)
+        # 4 step
+        pppID = get_pppid()
+        os.system(f'route add -net 192.168.0.0/24 dev {pppID}')
+        log('WARNING', f'route add -net 192.168.0.0/24 dev {pppID}')
+        sys.exit()
+    else:
+        sys.exit()
