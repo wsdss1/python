@@ -13,7 +13,7 @@
 - GPIO: 40-pin header, populated
 - Ports: HDMI, 3.5mm analogue audio-video jack, 4× USB 2.0, Ethernet, Camera - - Serial Interface (CSI), Display Serial Interface (DSI)
   
-2. DHT22 TEMPERATURE-HUMIDITY SENSOR  
+2. TWO DHT22 TEMPERATURE-HUMIDITY SENSOR(first inside, second outside)  
 - Low cost
 - 3 to 5V power and I/O
 - 2.5mA max current use during conversion (while requesting data)
