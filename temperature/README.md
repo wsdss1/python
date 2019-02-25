@@ -1,6 +1,6 @@
 # Check tempetarute in the room 
 
-## use in this project 
+## Use in this project 
 
 1. RASPBERRY PI
 - SoC: Broadcom BCM2837
@@ -23,3 +23,38 @@
 - Body size 15.1mm x 25mm x 7.7mm
 - 4 pins with 0.1" spacing
 
+3. Python 3.7
+4. Adafruit_DHT library
+
+## Raspberry Pi Humidity Software Installation and Testing
+First of all, some packages have to be installed:
+
+    sudo apt-get update
+    sudo apt-get install build-essential python-dev python-openssl git
+
+Now the library for the sensors can be loaded. I use a pre-built Adafruit library that supports a variety of sensors:
+
+    git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT
+    sudo python setup.py install
+
+This creates a Python library that we can easily integrate into our projects.
+If everything went well, we can already read the temperature and humidity. The easiest way is to first use the demo files:
+
+    cd examples
+    sudo ./AdafruitDHT.py 11 4
+
+The first parameter (11) indicates which sensor was used (22 for the DHT22) and the second, to which GPIO it is connected (not the pin number, but the GPIO number). This produces an output like the following:
+
+    $ sudo ./AdafruitDHT.py 11 4
+    Temp=24.0*  Humidity=41.0%
+
+Attention: The sensors are only ready every two seconds. Be careful not to start a query every second.
+
+To integrate the Raspberry Pi humidity library into other (Python) projects, you only need the following:
+
+    import Adafruit_DHT
+    ...
+    sensor = Adafruit_DHT.DHT11
+    pin = 4
+    humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+    ...
