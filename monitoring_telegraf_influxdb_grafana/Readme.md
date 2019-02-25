@@ -12,10 +12,10 @@
  Grafana позволяет визуализировать данные из influxdb, elasticsearch, clickhouse, prometheus, graphite, а также отправлять уведомления на почту, в slack и telegram.
 
 ## How to install
-ubuntu 18.04
-ip 10.200.12.190
-adminki
-Password12!
+Prerequisite:
+- ubuntu 18.04
+- ip 10.200.12.190
+- adminki / Password12!
 
 ### 1. influxdb 
     # curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
