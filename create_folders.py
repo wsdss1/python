@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 '''
-connest to host by ssh and 
-create dir on this host (ftp server) 
+ssh connect to remote server and 
+create dir on this server
 '''
 
-config = {'HOST' : '10.200.12.228', 'USER' : 'adminki', 'SECRET' : 'Password12!', 'PORT' : '22'}
-
 import os, logging, time, paramiko
+
+config = {'HOST' : '10.200.12.228', 'USER' : 'adminki', 'SECRET' : 'Password12!', 'PORT' : '22'}
 
 def log(severiry, message):
     # создаём logger
@@ -17,6 +17,7 @@ def log(severiry, message):
     # создаём консольный и файловый handler-ы и задаём уровень
     ch = logging.StreamHandler()
     ch.setLevel(logging.DEBUG)
+    create_dir(f'{logs}')
     fh = logging.FileHandler(f'./log_{time.strftime("%Y%m%d")}.log')
     fh.setLevel(logging.DEBUG)
     # создаём formatter для handler-ов
@@ -35,7 +36,7 @@ def log(severiry, message):
     elif severiry == 'WARNING':
         logger.warning(message)
  
-def create_dir():
+def create_dir(dirName):
     dirName = 'tempDir'
     try:
         # Create target Directory
@@ -67,8 +68,11 @@ def create_dir():
         print("Directory " , dirName ,  " already exists")    
 
 def connect_by_ssh():
+    # SSHClient – основной класс, который нужен для удаленного подключения
     client = paramiko.SSHClient()
+    # вносим ключ сервера в перечень известных нам хостов - файл .ssh/known_hosts
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    # подключение к host
     client.connect(hostname=config['HOST'], username=config['USER'], password=config['SECRET'], port=config['PORT'])
     stdin, stdout, stderr = client.exec_command('ls -l')
     data = stdout.read() + stderr.read()
