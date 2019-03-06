@@ -40,7 +40,7 @@ logger.addHandler(fh)
 
 
 # create dirrectory
-def create_dir(created_directory):
+def create_dir(created_directory: str):
     try:
         # Create target Directory
         os.mkdir(created_directory)
@@ -65,7 +65,7 @@ def rnd_file_create():
         newfile.close()
 
 # upload file on ftp
-def upload_ftp(file):
+def upload_ftp(file: str):
     logger.info(f'{sys._getframe().f_code.co_name}  try connect to {HOST}:{PORT} ftp server')
     ftp.connect(HOST, PORT)
     logger.info(f'{sys._getframe().f_code.co_name}  try login to ftp server')
