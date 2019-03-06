@@ -149,3 +149,7 @@
 2019-03-06 19:00:23,513  [PID 9060]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
 2019-03-06 19:00:45,596  [PID 9288]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
 2019-03-06 19:05:33,239  [PID 9424]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 20:19:45,845  [PID 3812]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 20:19:46,016  [PID 3812]  INFO  [sql_connect  select from table]
+2019-03-06 20:20:27,142  [PID 9340]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 20:20:27,294  [PID 9340]  INFO  [sql_connect  select from table]

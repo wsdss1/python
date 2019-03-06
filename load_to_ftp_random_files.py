@@ -96,9 +96,9 @@ def sql_connect():
     cnxn = pyodbc.connect(SQL_SERVER_CONNECT)
     cursor = cnxn.cursor()
     logger.info(f'{sys._getframe().f_code.co_name}  select from table') 
-    cursor.execute('SELECT * FROM [SSNTI_20190214].[dbo].[NTI_FILE]')
+    cursor.execute('SELECT Uid, Name, Created, Size FROM [SSNTI_20190214].[dbo].[NTI_FILE] order by Stamp desc')
     for row in cursor:
-            print(f'row = {row,}')
+        print(f'{row,}')
 
 if __name__ == '__main__':  
     #rnd_file_create()
