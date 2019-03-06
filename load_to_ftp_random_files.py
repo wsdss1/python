@@ -95,6 +95,7 @@ def sql_connect():
     logger.info(f'{sys._getframe().f_code.co_name}  try connect to SQL Server:10.200.12.223') 
     cnxn = pyodbc.connect(SQL_SERVER_CONNECT)
     cursor = cnxn.cursor()
+    logger.info(f'{sys._getframe().f_code.co_name}  select from table') 
     cursor.execute('SELECT * FROM [SSNTI_20190214].[dbo].[NTI_FILE]')
     for row in cursor:
             print(f'row = {row,}')
