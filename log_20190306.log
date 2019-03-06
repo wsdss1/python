@@ -144,3 +144,8 @@
 2019-03-06 12:19:26,723  [PID 12788]  INFO  [upload_ftp  file sended to ftp server]
 2019-03-06 12:19:26,724  [PID 12788]  INFO  [create_dir  temp_folder_sended:already exists]
 2019-03-06 12:19:26,724  [PID 12788]  INFO  [main  send file c4f4b2c0-9d2b-436a-9d72-8f655b71c71e.to to temp_folder_sended]
+2019-03-06 18:58:15,837  [PID 4620]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 18:58:40,980  [PID 5916]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 19:00:23,513  [PID 9060]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 19:00:45,596  [PID 9288]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]
+2019-03-06 19:05:33,239  [PID 9424]  INFO  [sql_connect  try connect to SQL Server:10.200.12.223]

@@ -5,7 +5,7 @@
 connect to ftp server, create dir and generate file
 '''
 
-import os, logging, logging.config, time, datetime, shutil, random, uuid, sys
+import os, logging, logging.config, time, datetime, shutil, random, uuid, sys, pyodbc
 from ftplib import FTP
 
 HOST = "10.200.12.228"
@@ -13,6 +13,7 @@ PORT = 21
 UNAME = "ftpuser"
 PS = "12345"
 ftp = FTP('10.200.12.228', 'ftpuser', '12345')
+SQL_SERVER_CONNECT = "Driver={SQL Server Native Client 11.0};Server=10.200.12.223;Database=SSNTI;Trusted_Connection=no;uid=test;pwd=Password12!"
 
 waveform_archive_t = ['to','t01','t02','t03','t04','t05','t06','t07','t08','t09','t0A','t0B','t0C','t0D','t0E','t0F']
 waveform_archive_d = ['do','d01','d02','d03','d04','d05','d06','d07','d08','d09','d0A','d0B','d0C','d0D','d0E','d0F']
@@ -79,7 +80,7 @@ def upload_ftp(file: str):
     logger.info(f'{sys._getframe().f_code.co_name}  file sended to ftp server')
     myfile.close()
 
-def main():
+def read_local_dir():
     file_list = os.listdir(f'./{temp_folder}')
     num_files = len(os.listdir(f'./{temp_folder}'))
     logger.info(f'{sys._getframe().f_code.co_name}  read {num_files} files in {temp_folder}')
@@ -90,6 +91,15 @@ def main():
         logger.info(f'{sys._getframe().f_code.co_name}  send file {file} to {NEW_PATH}') 
         shutil.move(f'{current_dir}\\temp_folder\{file}', f'{current_dir}\{NEW_PATH}')
 
+def sql_connect():
+    logger.info(f'{sys._getframe().f_code.co_name}  try connect to SQL Server:10.200.12.223') 
+    cnxn = pyodbc.connect(SQL_SERVER_CONNECT)
+    cursor = cnxn.cursor()
+    cursor.execute('SELECT * FROM [SSNTI_20190214].[dbo].[NTI_FILE]')
+    for row in cursor:
+            print(f'row = {row,}')
+
 if __name__ == '__main__':  
-    rnd_file_create()
-    main()
+    #rnd_file_create()
+    #main()
+    sql_connect()
