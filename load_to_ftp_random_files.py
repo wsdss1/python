@@ -64,6 +64,7 @@ def rnd_file_create():
         newfile.write(b'\0')
         logger.info(f'{sys._getframe().f_code.co_name}  {full_filename}  size= {size} bytes')
         newfile.close()
+    return filename
 
 # upload file on ftp
 def upload_ftp(file: str):
@@ -91,16 +92,21 @@ def read_local_dir():
         logger.info(f'{sys._getframe().f_code.co_name}  send file {file} to {NEW_PATH}') 
         shutil.move(f'{current_dir}\\temp_folder\{file}', f'{current_dir}\{NEW_PATH}')
 
-def sql_connect():
-    logger.info(f'{sys._getframe().f_code.co_name}  try connect to SQL Server:10.200.12.223') 
+def sql_connect_select(file_name):
+    logger.info(f'{sys._getframe().f_code.co_name}  try connect to SQL Server:10.200.12.228') 
     cnxn = pyodbc.connect(SQL_SERVER_CONNECT)
     cursor = cnxn.cursor()
     logger.info(f'{sys._getframe().f_code.co_name}  select from table') 
-    cursor.execute('SELECT Uid, Name, Created, Size FROM [SSNTI_20190214].[dbo].[NTI_FILE] order by Stamp desc')
-    for row in cursor:
-        print(f'{row,}')
+    #/****** Скрипт для команды SelectTopNRows из среды SSMS  ******/
+    while (cursor.execute(f"SELECT * FROM [SSNTI_20181213].[dbo].[NTI_SYSEVENT] where Message like N'%{file_name}%' and Type='201'")) is False:
+        logger.info(f'{sys._getframe().f_code.co_name}  wait information from SQL in table about this {file_name} file') 
+        print (f'{file_name} wait information from SQL in table about this {file_name} file \n')
+        time.sleep(60)
+    else:
+        logger.info(f'{sys._getframe().f_code.co_name}  this {file_name} in Data Base') 
+        print (f'{file_name} file in in Data Base. OK!')
 
-if __name__ == '__main__':  
-    #rnd_file_create()
-    #main()
-    sql_connect()
+if __name__ == '__main__':
+    created_file = rnd_file_create()
+    read_local_dir()
+    sql_connect_select(created_file)
