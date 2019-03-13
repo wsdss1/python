@@ -3,3 +3,4 @@
 pymongo>=3.3.0
 paramiko==2.3
 pyodbc>=4.0.26
+matplotlib
