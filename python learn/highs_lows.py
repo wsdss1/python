@@ -25,6 +25,7 @@ with open(filename) as f:
     fig = plt.figure(dpi=64, figsize=(10, 6))
     plt.plot(dates, highs, c='red')
     plt.plot(dates, lows, c='blue')
+    plt.fill_between(dates, highs, lows, facecolor='green', alpha=0.1)
 
     # Форматирование диаграммы.
     plt.title("Daily high and low temperatures, July 2014", fontsize=14)
