@@ -3,13 +3,13 @@ from selenium.webdriver.common.keys import Keys
 import time
 import openpyxl
 #browser = webdriver.Firefox()
-browser = webdriver.Chrome()
-time.sleep (5) # долго грузится - делаем задержку
-browser.get ('https://egrul.nalog.ru/')
+browser = webdriver.Chrome(".\\selenium_driver\\chromedriver.exe")
+time.sleep(5) # долго грузится - делаем задержку
+browser.get('https://egrul.nalog.ru/')
 
 # столбец с выписками ЕГРЮЛ
    
-for x in range (2,10):    # 3-конечная ячейка в столбце A. первый аргумент - номер строки      
+for x in range(2,10):    # 3-конечная ячейка в столбце A. первый аргумент - номер строки
         wb = openpyxl.load_workbook('выпискиЕГРЮЛ.xlsx')
         sheet=wb.get_active_sheet()
         a = tuple (str(sheet.cell(row=x, column=1).value)) # получаем кортеж из ОГРН в ячейке A2 
@@ -27,7 +27,7 @@ for x in range (2,10):    # 3-конечная ячейка в столбце A.
         time.sleep (3)
         act = browser.find_element_by_css_selector('button.btn-with-icon:nth-child(2)')
         act.click()
-        time.sleep (30)
+        time.sleep (5)
         act = browser.find_element_by_id('query')
         act.click() 
         #удаляем старый ОГРН
